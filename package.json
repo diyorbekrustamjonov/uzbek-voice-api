@@ -1,0 +1,23 @@
+{
+  "name": "uzbek-voice-api",
+  "version": "1.0.0",
+  "description": "Text to Uzbek voice",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "uzbek-voice-api",
+    "uzbek",
+    "voice"
+  ],
+  "author": "Diyorbek Rustamjonov <drustamjonov0919@gmail.com> ",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "microsoft-cognitiveservices-speech-sdk": "^1.20.0",
+    "nodemon": "^2.0.15"
+  }
+}
